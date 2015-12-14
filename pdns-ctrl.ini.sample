@@ -1,0 +1,9 @@
+[global]
+host=example.com
+port=9000
+helper=/usr/bin/rec_control
+
+[admin]
+ip=10.0.0.0/8
+token=somehugeandsecrettoken
+

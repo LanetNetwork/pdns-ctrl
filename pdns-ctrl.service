@@ -1,0 +1,14 @@
+[Unit]
+Description=PowerDNS HTTP control service
+After=network.target
+
+[Service]
+Type=simple
+PrivateTmp=true
+WorkingDirectory=/opt/pdns-ctrl
+ExecStart=/opt/pdns-ctrl/pdns-ctrl.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,8 @@
+pdns-ctrl.ini
+*.pyc
+*.log
+*.corrupted
+*~
+*.swp
+*.bak
+*.orig
